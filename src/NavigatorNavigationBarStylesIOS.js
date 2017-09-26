@@ -42,17 +42,17 @@ var NAV_HEIGHT = NAV_BAR_HEIGHT + STATUS_BAR_HEIGHT;
 var BASE_STYLES = {
   Title: {
     position: 'absolute',
-    top: STATUS_BAR_HEIGHT,
     left: 0,
     right: 0,
+    bottom: 0,
     alignItems: 'center',
     height: NAV_BAR_HEIGHT,
     backgroundColor: 'transparent',
   },
   LeftButton: {
     position: 'absolute',
-    top: STATUS_BAR_HEIGHT,
     left: 0,
+    bottom: 0,
     overflow: 'hidden',
     opacity: 1,
     height: NAV_BAR_HEIGHT,
@@ -60,8 +60,8 @@ var BASE_STYLES = {
   },
   RightButton: {
     position: 'absolute',
-    top: STATUS_BAR_HEIGHT,
     right: 0,
+    bottom: 0,
     overflow: 'hidden',
     opacity: 1,
     alignItems: 'flex-end',
