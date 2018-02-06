@@ -201,7 +201,8 @@ class NavigatorNavigationBar extends React.Component {
           this._components[componentName] = this._components[componentName].set(route, ref);
         }}
         pointerEvents={componentIsActive ? 'box-none' : 'none'}
-        style={initialStage[componentName]}>
+        style={initialStage[componentName]}
+        key={componentName}>
         {content}
       </View>
     );
